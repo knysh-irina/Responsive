@@ -1,0 +1,914 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 100%;
+	background: #f6f6f6;
+	max-width: 1280px;
+	margin: auto;
+
+}
+.clearfix{
+	clear: both;
+}
+@font-face {
+	font-family: Code_Light;
+	src: url(../fonts/Code_Light.otf)
+}
+@font-face {
+	font-family: CenturyGothicRegular;
+	src: url(../fonts/CenturyGothicRegular.ttf)
+}
+
+/*...............header...............................*/
+header {
+	background: #f6f6f6;
+
+}
+
+.logo{
+	width: 30%;
+	max-width: 120px;
+	float: left;
+	
+    display: block;
+	
+	margin-top: 1rem;
+	margin-left: 3rem;
+}
+
+.logo img{
+	padding-top: 0.4rem;
+	display: block;
+}
+.logo:hover{
+	
+border: 0.1rem solid #ffea00;
+border-radius: 50% ;
+	box-shadow: -2px 2px 9px gray;
+	margin-top: 0.88rem;
+	margin-left: 3rem;
+
+
+
+
+}
+
+.header-ul{
+float: right;
+margin-top: 1.4rem;
+margin-right: 4rem;
+
+
+}
+
+.header-ul li{
+list-style-type: none;
+margin-bottom: 1.2rem;
+}
+
+.header-ul li a{
+font-family: Code_Light;
+text-decoration: none;
+font-size: 1em;
+color: black;
+padding: 1rem 0.5rem;
+}
+
+
+.header-ul li a:hover{
+	background: #ffea00;
+}
+
+@media only screen and (min-width: 48em) {
+  .header-ul li{
+  	margin-top: 5rem;
+    display: inline-block;
+  }
+  header{
+  	padding-bottom: 1rem;
+  }
+}
+
+
+/*...............header end................................*/
+/*...............foto................................*/
+
+.fotorama{
+	width: 100%;
+}
+
+.foto img{
+	width: 100%;
+}
+
+.foto a{
+	text-decoration: none;
+	color: white;
+	background: black;
+	border-bottom: 2px solid #eedb00;
+	font-family: CenturyGothicRegular;
+	font-size: 0.7em;
+	margin-top: 40%;
+	margin-left: 4rem;
+	display: block;
+	padding: 0.1rem 0.4rem;
+	width: 4rem;
+}
+.foto a:hover{
+	border: 2px solid #eedb00;
+}
+
+
+
+@media only screen and (min-width: 48em) {
+ .foto a{
+ 	font-size: 1.2em;
+	margin-top: 40%;
+	margin-left: 15rem;
+	display: block;
+	padding: 0.1rem 0.4rem;
+	width: 7rem;
+ }
+
+
+
+  }
+
+
+
+
+
+
+/*...............foto end................................*/
+/*...............cards................................*/
+
+
+
+.cards{
+text-align: center;
+font-size: 40%;
+padding: 1.5rem 0.5rem;
+
+}
+
+@media only screen and (min-width: 48em) {
+	.cards{
+		font-size: 100%;
+	}
+	.card{
+		font-size: 40%;
+	}
+	
+	}
+.cards-p1-hover{
+
+	font-family: Code_Light;
+	font-size: 1.25em;
+	text-align: left;
+	padding-left: 1rem;
+	letter-spacing: 0.1em;
+}
+.cards-p2-hover{font-family: CenturyGothicRegular;
+	font-size: 0.625em;
+text-align: right;
+padding-right: 1rem;}
+#yel{
+	color: #ffea00;
+}
+
+
+
+.card-p1{
+font-family: CenturyGothicRegular;
+font-size: 2.18em;
+color: black;
+padding-bottom: 0.5rem;
+}
+.card-p2{
+font-family: CenturyGothicRegular;
+font-size: 1.5em;
+color: black;
+}
+
+
+.card{
+width: 10rem;
+margin: 1rem auto;
+background: #414146;
+
+
+}
+.card1{
+
+
+
+}
+.card img{
+	width: 100%;
+	display: block;
+
+}
+
+
+.card-a{
+	font-family: CenturyGothicRegular;
+font-size: 1.5em;
+display: block;
+color: white;
+background: #414146;
+width: 100%;
+text-decoration: none;
+padding: 0.55rem 0;
+}
+
+.card1 a {
+	padding: 0.2rem 0;
+}
+
+@media only screen and (min-width: 22.43em) {
+.card{
+float: left;
+margin: 1rem 0.3rem;
+}
+.cards{
+	margin: auto;
+	width: 22.43rem;
+}
+}
+@media only screen and (min-width: 43.43em) {
+.card{
+float: left;
+margin: 1rem 0.3rem;
+}
+.cards{
+	margin: auto;
+	width: 43.43rem;
+}
+}
+
+/*...............cards end................................*/
+
+
+/*...............work................................*/
+.work{
+
+text-align: center;
+padding-top: 2rem;
+}
+
+
+.six{
+font-size: 60%;
+}
+
+@media only screen and (min-width: 48em) {
+	.six{
+		font-size: 100%;
+	}
+	}
+.work-a{
+	font-family: CenturyGothicRegular;
+font-size: 1.125em;
+color: #ffea00;
+background: #424147;
+padding: 0.3rem 1rem;
+text-decoration: none;
+position: relative;
+
+
+}
+.work-a:hover{
+border: 2px solid #ffea00;
+}
+
+.line{
+	background: #cacaca;
+	height: 1px;
+	width: 25%;
+	float: left;
+
+
+}
+.line2{
+	float: right;
+	background: #cacaca;
+	height: 1px;
+	width: 25%;
+}
+
+
+@media only screen and (min-width: 22.43em) {
+	.line, .line2 {width: 35%;}}
+
+@media only screen and (min-width: 43.43em) {
+.line, .line2 {width: 40%;}}
+
+
+.work-p {
+	font-family: CenturyGothicRegular;
+font-size: 1em;
+color: black;
+padding: 1rem;
+}
+
+
+
+.work-port img{
+		opacity: 0.7;
+		display: block;
+
+  -webkit-filter: grayscale(100%);
+
+	}
+
+
+
+.work-port	a:hover img{
+	opacity: 1;
+	 -webkit-filter: grayscale(0%);
+	}
+
+
+
+.work-port{
+width: 90%;
+margin: auto;
+}
+
+
+
+.work-img-1{
+	width: 100%;
+	display: block;
+	margin-bottom: 0.2rem;
+}
+.work-img-2{
+	width: 48.69%;
+	float: left;
+	margin-bottom: 0.2rem;
+	
+}
+.work-img-3{
+	width: 50.239%;
+	float: right;
+	margin-bottom: 0.2rem;
+
+}
+@media only screen and (min-width: 48em) {
+  .work-port1{
+	width: 66%;
+	float: left;
+  }
+  .work-port2{
+width: 34%;
+float: right;
+  }
+
+  .im1, .im2{
+  	width: 49.5%;
+  	float: left;
+  }
+    .im1{
+    	margin-right: 0.2rem;
+    }
+  .im3{
+  	float: left;
+  	width: 25%;
+  }
+  .im4{
+  	float: left;
+  	width: 48%;
+  	margin: 0 0.2rem;
+  }
+  .im5{
+  	float: left;
+  	width: 25%;
+  }
+   .im6{
+margin-left: 0.1rem;
+margin-right: 0.1rem;
+float: left;
+   }
+    .im7{
+width: 49.5%;
+float: right;
+    }
+     .im8{
+float: left;
+width: 49%;
+     }
+      .im9{
+float: right;
+width: 49.4%;
+      }
+       .im10{
+float: right;
+width: 49.4%;
+       }
+       .im11{
+float: left;
+       }
+  }
+
+/*...............work end................................*/
+
+
+
+/*...............clients................................*/
+.clients{
+
+	padding-top: 3rem;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+.clients .work-p{
+
+	font-family: CenturyGothicRegular;
+font-size: 1em;
+color: black;
+padding: 1rem;
+}
+
+ 
+
+
+
+/*...............clients end................................*/
+
+
+
+
+/*...............footer................................*/
+
+
+footer{
+	background: #414146;
+	font-size: 100%;
+	text-align: left;
+	color: white;
+}
+footer h1{
+
+	font-family: CenturyGothicRegular;
+font-size: 1.125em;
+color: white;
+padding: 1.5rem 0;
+padding-top: 2rem;
+}
+
+footer .about{
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+}
+footer .about a{
+	text-decoration: none;
+	color: white;
+	background: black;
+	border-bottom: 2px solid #eedb00;
+	font-family: CenturyGothicRegular;
+	font-size: 0.7em;
+	padding: 0.1rem 0.4rem;
+
+
+	
+}
+footer .about a:hover{
+	border: 2px solid #eedb00;
+
+}
+
+footer p{
+
+	font-family: CenturyGothicRegular;
+font-size: 0.8125em;
+color: white;
+padding-bottom: 1rem;
+}
+.about img{
+	width: 100%;
+}
+
+.tweets{
+padding-right: 1rem;
+padding-left: 1rem;}
+.tweets img{
+	float: left;
+}
+.tweets-day{
+	font-size: 0.5em;
+	color: #ffea00;
+	font-family: CenturyGothicRegular;
+
+}
+
+.tweets-h1{
+margin-bottom: 3rem;
+}
+.tweets-h1 a{
+float: left; margin-right: 0.2rem;
+margin-bottom: 1rem;
+border-bottom: 2px solid black;
+}
+
+.tweets-h1 a:hover{
+	border-bottom: 2px solid #ffea00;
+}
+
+.contact img{
+	float: left;
+	margin-right: 0.7rem;
+
+}
+
+.contact{
+	
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+.contact-img2{
+	position: relative;
+	top: 0.5rem;
+}
+
+.email1{
+   background: transparent;
+   border: 0px;
+   border-bottom: 1px solid #ffea00;
+   height: 1.5rem;
+   font-size: 1em;
+}
+.email2{
+position: relative;
+top: 0.6rem;
+right: 0.2rem;
+
+
+}
+.contact{
+	padding-bottom: 3rem;
+}
+
+.copyright{
+	background: #000000;
+
+	padding: 1rem;
+	padding-bottom: 16rem;
+}
+
+.copyright p{
+	font-family: CenturyGothicRegular;
+font-size: 0.8125em;
+color: white;
+padding-bottom: 1rem;
+
+float: left;
+
+
+}
+.copyright ul li a{
+	color: white;
+}
+.copyright-ul{
+	float: right;
+	background: black;
+	display: block;
+	margin-right: 3rem;
+}
+
+.copyright-ul li{
+list-style-type: none;
+margin-bottom: 1.2rem;
+}
+
+.copyright-ul li a{
+font-family: Code_Light;
+text-decoration: none;
+font-size: 1em;
+color: black;
+padding: 1rem 0.5rem;
+}
+
+.copyright-ul li a:hover{
+	background: #ffea00;
+	color: black;
+}
+@media only screen and (min-width: 48em) {
+.copyright{
+	
+	padding-bottom: 5rem;}
+	.copyright ul li{
+		display: inline-block;
+
+	}
+
+	.copyright p{
+		display: block;
+		width: 35%;
+	}
+}
+
+
+/*...............footer end................................*/
+
+
+/*...........PAGE-2..........................................*/
+/*...........PAGE-2..........................................*/
+/*...........PAGE-2..........................................*/
+/*...........PAGE-2..........................................*/
+/*...........PAGE-2..........................................*/
+
+
+
+.top{
+	background: url(../images/top.jpg);
+	height: 9.375em;
+	padding-top: 2rem;
+	font-size: 50%;
+	margin-bottom: 3rem;
+}
+.top span{
+	font-size: 2.1875em;
+	padding: 0.5rem 4rem 0.5rem 0.5rem;
+	color: #ffea00;
+	background-color: rgba(66,65,70,1);
+	margin-left: 3rem;
+	font-family: CenturyGothicRegular;
+
+}
+
+
+
+@media only screen and (min-width: 48em) {
+	.top{
+		font-size: 100%;
+		padding-top: 3rem;
+	}}
+
+
+/*...............top end.........*/
+/*...............create.........*/
+
+.create{
+	font-size: 50%;
+}
+.create ul{
+	margin-left: 3rem;
+
+}
+
+
+.create ul li{
+display: block;
+margin-top: 0.5rem;
+}
+
+
+@media only screen and (min-width: 27em) {
+	.create ul li{
+		display: inline-block;}}
+
+.create ul li a{
+font-family: CenturyGothicRegular;
+color: black;
+text-decoration: none;
+font-size: 1.5em;
+padding: 0.5rem;
+margin-right: 0.5rem;
+
+
+}
+.create ul li a:hover{
+	background-color: #ffea00;
+}
+
+@media only screen and (min-width: 48em) {
+	.create{
+		font-size: 100%;
+		
+	}}
+.all-a:hover .all-mask img{
+	visibility: visible;
+
+}
+	.all{
+		width: 100%;
+	}
+.all-img img{
+width: 100%;
+margin: 1.4rem 0rem;
+
+}
+.all-mask img{
+width: 100%;
+display: block;
+}
+
+.all-mask img{
+	visibility: hidden;
+}
+
+.all-a{
+padding-right: 0.2rem;
+padding-left: 0.2rem;
+display: block;
+}
+/*...............create end.........*/
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+
+/*...............top end.........*/
+
+/*...............top end.........*/
+
+
+/*...............top end.........*/
+
+
+
+
+
+
+
+
+
+
+
+/*...........PAGE-3..........................................*/
+/*...........PAGE-3..........................................*/
+/*...........PAGE-3..........................................*/
+/*...........PAGE-3..........................................*/
+/*...........PAGE-3..........................................*/
+
+.photorama{
+	background: #424147;
+}
+.fotorama__nav-wrap{
+	background: black;
+}
+
+.zag{
+	font-family: CenturyGothicRegular;
+color: #ffea00;
+font-size: 1.125em;
+background-color: #424147;
+padding: 0.5em 1em;
+display: block;
+width: 13rem;
+margin: 1rem 0;
+}
+.description{
+	padding: 1rem;
+
+	
+}
+.line3{
+	width: 100%;
+	height: 0.05em;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	
+	background: #cdcdcd;
+}
+.description p {
+	font-family: CenturyGothicRegular;
+	font-size: 0.93em;
+	line-height: 1.6em;
+}
+
+.recent{
+	padding: 1rem;
+	padding-top: 2rem;
+
+}
+
+.recent img{
+	display: inline-block;
+	width: 32%;
+	margin-bottom: 2rem;
+	
+		opacity: 0.7;
+  -webkit-filter: grayscale(100%);}
+
+	
+
+
+.recent	a:hover img{
+	opacity: 1;
+	 -webkit-filter: grayscale(0%);
+	}
+
+.mar{
+	margin-right: 0.2rem;
+}
+
+.zz{
+	margin: 0;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.details{
+background: #424147;
+margin-left: 1rem;
+margin-bottom: 1rem;
+padding-right: 1rem;
+padding-bottom: 1rem;
+}
+
+.details-p{
+font-family: CenturyGothicRegular;
+	font-size: 0.90em;
+	color: white;
+	
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.details-p img{
+padding-left: 1rem;
+padding-right: 0.5rem;
+margin-bottom: 0.5rem;
+position: relative;
+bottom: 0.2rem;
+float: left;
+
+}
+.details-p:hover{
+	border-bottom: 1px solid #ffea00;
+	
+}
+
+
+.posts{
+background: #424147;
+margin-left: 1rem;
+margin-bottom: 1rem;
+padding-right: 1rem;
+}
+
+
+.posts-div{
+	margin-top: 1rem;
+}
+
+.likes{
+	float: right;
+	font-family: CenturyGothicRegular;
+	font-size: 0.80em;
+	color: #ffea00;
+
+}
+.likes img{
+	padding-left: 0.5rem;
+}
+
+.tags{
+background: #424147;
+margin-left: 1rem;
+margin-bottom: 1rem;
+padding: 1rem;
+padding-bottom: 2rem;
+}
+.tags .zz{
+margin-left: -1rem;
+}
+
+.tags a{
+	display: inline-block;
+	background: #ffea00;
+	padding: 0.3rem 0.5rem;
+	color: #424147;
+	text-decoration: none;
+	font-family: CenturyGothicRegular;
+	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 0.2rem;
+
+}
+
+.tags a:hover{
+  background:  #fff8ab;
+  transition: 0.5s ease all;
+
+}
+
